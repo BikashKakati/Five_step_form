@@ -68,7 +68,7 @@
     @apply w-full h-full;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-zinc-100 text-foreground;
   }
   #root{
     @apply min-h-dvh py-[3rem]
