@@ -104,7 +104,7 @@ const CreateProjectPage = () => {
           />
           <div
             className={`flex absolute right-0 items-center gap-3 translate-x-full transition-transform duration-300 ${
-              addClientActive && "translate-x-0 relative right-auto"
+              addClientActive && "!translate-x-0 !relative !right-auto"
             }`}
           >
             <Input placeholder="Add new client" ref={clientRef} />
